@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конструтор букетов</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        *{ margin: 0; } 
+    </style>
+    <script type="module" src="/main.js"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three/examples/jsm/"
+            }
+        }
+    </script>
+</head>
+<body>
+    <button style="height: 80px; width: 80px;;" id="china"></button>
+    <div class="content">
+        <div class="block">
+            <div class="text">Выберите кол-во цветов (Макс. 7)</div>
+            <input type="number" min="1" max="7" id="input">
+        </div>
+        <div id="sceneMain"></div>
+    </div>
+</body>
+</html>

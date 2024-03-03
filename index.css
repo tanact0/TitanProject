@@ -1,0 +1,12 @@
+#input{
+    width: 100px;
+    height: 40px;
+}
+.content{
+    display: flex;
+}
+.block{
+    padding: 200px 0 0 0;
+    background-color: rgb(142, 91, 158);
+    font-size: 35px;
+}
